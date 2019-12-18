@@ -1,0 +1,6 @@
+image: alpine:latest
+
+workshop:
+  stage: workshop
+  script:
+    - cat workshop.txt
