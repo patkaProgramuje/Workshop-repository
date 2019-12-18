@@ -3,4 +3,4 @@ image: alpine:latest
 workshop:
   stage: build
   script:
-    - cat workshop.txt
+    - echo "Hello from CI :)"
