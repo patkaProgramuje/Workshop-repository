@@ -1,6 +1,6 @@
 image: alpine:latest
 
 workshop:
-  stage: workshop
+  stage: build
   script:
     - cat workshop.txt
